@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-03-15T00:44:40-07:00</updated><id>/feed.xml</id><title type="html">Sarayut Blog</title><subtitle>An amazing Blog</subtitle><author><name>Sarayut Winuthayanon</name></author><entry><title type="html">About Math</title><link href="/About/" rel="alternate" type="text/html" title="About Math" /><published>2020-03-14T00:00:00-07:00</published><updated>2020-03-14T00:00:00-07:00</updated><id>/About</id><content type="html" xml:base="/About/">&lt;p&gt;Some inline Latex: &lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;When $a \ne 0$, there are two solutions to (ax^2 + bx + c = 0) and they are
+&lt;script type=&quot;math/tex&quot;&gt;x = {-b \pm \sqrt{b^2-4ac} \over 2a}.&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Display equation:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int e^{-kx} \, dx = -\frac{1}{k} e^{-kx}&lt;/script&gt;</content><author><name>Sarayut Winuthayanon</name></author><summary type="html">Some inline Latex:</summary></entry><entry><title type="html">Butterfly</title><link href="/Butterfly/" rel="alternate" type="text/html" title="Butterfly" /><published>2020-03-14T00:00:00-07:00</published><updated>2020-03-14T00:00:00-07:00</updated><id>/Butterfly</id><content type="html" xml:base="/Butterfly/">&lt;p&gt;Butterfly animation.
+Butterfly animation.&lt;/p&gt;</content><author><name>Sarayut Winuthayanon</name></author><summary type="html">Butterfly animation. Butterfly animation.</summary></entry><entry><title type="html">Giphy</title><link href="/Giphy/" rel="alternate" type="text/html" title="Giphy" /><published>2020-03-14T00:00:00-07:00</published><updated>2020-03-14T00:00:00-07:00</updated><id>/Giphy</id><content type="html" xml:base="/Giphy/">&lt;p&gt;Giphy animation.&lt;/p&gt;</content><author><name>Sarayut Winuthayanon</name></author><summary type="html">Giphy animation.</summary></entry><entry><title type="html">I love coding!</title><link href="/Code/" rel="alternate" type="text/html" title="I love coding!" /><published>2020-03-10T00:00:00-07:00</published><updated>2020-03-10T00:00:00-07:00</updated><id>/Code</id><content type="html" xml:base="/Code/">&lt;p&gt;State of Highlighting Code in Jekyll
+I appear to be able to highlight syntax in Markdown files in two different ways using Jekyll.&lt;/p&gt;
+
+&lt;p&gt;This `is not a code` span!&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\         backslash
+.         period
+*         asterisk
+_         underscore
++         plus
+-         minus
+=         equal sign
+`         back tick
+()[]{}&amp;lt;&amp;gt;  left and right parens/brackets/braces/angle brackets
+#         hash
+!         bang
+&amp;lt;&amp;lt;        left guillemet
+&amp;gt;&amp;gt;        right guillemet
+:         colon
+|         pipe
+&quot;         double quote
+'         single quote
+$         dollar sign
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-language&quot; data-lang=&quot;language&quot;&gt;var name = &quot;Alice&quot;;
+var function = alertMessage(){
+  alert(&quot;Hello, &quot; + name);
+  var name = &quot;Bob&quot;;
+};
+alertMessage();&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;javascript&lt;/span&gt;
+ &lt;span class=&quot;nt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;hoisting&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;global variable&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;err&quot;&gt;confirm(&quot;\&quot;&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;hoisting&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;\&quot;&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;click&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;OK&quot;&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;err&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;hoisting&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;local&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;variable&quot;;&lt;/span&gt;
+        &lt;span class=&quot;err&quot;&gt;alert(hoisting);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)();&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;self-executing&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;function&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;```&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% for post in site.posts %}
+{% if post.categories contains '&amp;lt;categoryname&amp;gt;' %}
+    &amp;lt;h2&amp;gt;
+      &amp;lt;a href=&quot;{{ post.url }}&quot;&amp;gt;{{ post.title }}&amp;lt;/a&amp;gt;
+    &amp;lt;/h2&amp;gt;
+{% endif %}
+{% endfor %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;pre&gt;
+```javascript
+ var hoisting = &quot;global variable&quot;;
+    (function(){
+        confirm(&quot;\&quot;&quot; + hoisting + &quot;\&quot;&quot; + &quot; click OK&quot; );
+        var hoisting = &quot;local variable&quot;;
+        alert(hoisting);
+    })(); //self-executing function
+```
+&lt;/pre&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;center_lower_48&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;39.833333&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;98.583333&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;folium&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;center_lower_48&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                 &lt;span class=&quot;n&quot;&gt;zoom_start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                 &lt;span class=&quot;n&quot;&gt;control_scale&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                 &lt;span class=&quot;n&quot;&gt;tiles&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Stamen Terrain'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;#&lt;code class=&quot;highlighter-rouge&quot;&gt;shell
+$ pip install jupyter
+#&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jupyter
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;cat&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'I love cats'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;def cat
+  puts ‘I love cats’
+end&lt;/p&gt;
+
+&lt;p&gt;The code above yields:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;language-shell highlighter-rouge&quot;&amp;gt;
+  &amp;lt;div class=&quot;highlight&quot;&amp;gt;
+    &amp;lt;pre class=&quot;highlight&quot;&amp;gt;
+      &amp;lt;code&amp;gt;
+        &amp;lt;span class=&quot;nv&quot;&amp;gt;$ &amp;lt;/span&amp;gt;pip install jupyter
+      &amp;lt;/code&amp;gt;
+    &amp;lt;/pre&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;However, if I use Liquid syntax in my markdown file, the output changes.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jupyter&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The code above renders to the result below.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;
+    &lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;
+      &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip install jupyter
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/figure&gt;
+&lt;p&gt;Please note that this difference does not appear to be documented, and is quite surprising to a Jekyll beginner. I note that in some other issues Jekyll-users appear surprised to discover that highlighting with fenced blocks is an option, because the documentation refers only to the second method.&lt;/p&gt;
+
+&lt;p&gt;Note that some behavior changes if I edit my _config.yml and set highlighter to none&lt;/p&gt;
+
+&lt;p&gt;markdown: kramdown
+highlighter: none # new addition
+The first code snippet (using Markdown delimiters) now yields the following (note missing div tags and syntax highlighting).&lt;/p&gt;
+
+&lt;pre&gt;
+  &lt;code class=&quot;language-shell&quot;&gt;
+    $ pip install jupyter
+  &lt;/code&gt;
+&lt;/pre&gt;
+&lt;p&gt;The second snippet now yields the code below (syntax highlighting removed, but figure tags remains).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;
+    &lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;
+      $ pip install jupyter
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/figure&gt;</content><author><name>Sarayut Winuthayanon</name></author><summary type="html">State of Highlighting Code in Jekyll I appear to be able to highlight syntax in Markdown files in two different ways using Jekyll.</summary></entry><entry><title type="html">I love Math!</title><link href="/Math/" rel="alternate" type="text/html" title="I love Math!" /><published>2020-03-10T00:00:00-07:00</published><updated>2020-03-10T00:00:00-07:00</updated><id>/Math</id><content type="html" xml:base="/Math/">&lt;p&gt;Some inline Latex: &lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;When $a \ne 0$, there are two solutions to (ax^2 + bx + c = 0) and they are
+&lt;script type=&quot;math/tex&quot;&gt;x = {-b \pm \sqrt{b^2-4ac} \over 2a}.&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Display equation:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int e^{-kx} \, dx = -\frac{1}{k} e^{-kx}&lt;/script&gt;
+
+&lt;p&gt;These render differently. For example, type
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+to show 
+(which is inline mode) or type
+&lt;script type=&quot;math/tex&quot;&gt;\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}&lt;/script&gt;
+to show&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;</content><author><name>Sarayut Winuthayanon</name></author><summary type="html">Some inline Latex:</summary></entry><entry><title type="html">I love pizza!</title><link href="/Pizza/" rel="alternate" type="text/html" title="I love pizza!" /><published>2020-03-10T00:00:00-07:00</published><updated>2020-03-10T00:00:00-07:00</updated><id>/Pizza</id><content type="html" xml:base="/Pizza/">&lt;h1 id=&quot;hello-test&quot;&gt;Hello Test&lt;/h1&gt;
+&lt;h2 id=&quot;nine&quot;&gt;Nine&lt;/h2&gt;</content><author><name>Sarayut Winuthayanon</name></author><summary type="html">Hello Test Nine</summary></entry><entry><title type="html">Data Wrangling Project</title><link href="/perceptron/" rel="alternate" type="text/html" title="Data Wrangling Project" /><published>2018-01-28T00:00:00-08:00</published><updated>2018-01-28T00:00:00-08:00</updated><id>/perceptron</id><content type="html" xml:base="/perceptron/">&lt;h1 id=&quot;h1-heading&quot;&gt;H1 Heading&lt;/h1&gt;
+
+&lt;h2 id=&quot;h2-heading&quot;&gt;H2 Heading&lt;/h2&gt;
+
+&lt;h3 id=&quot;h3-heading&quot;&gt;H3 Heading&lt;/h3&gt;
+
+&lt;p&gt;Here’s some basic text.&lt;/p&gt;
+
+&lt;p&gt;And here’s some &lt;em&gt;italics&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s some &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+
+&lt;p&gt;What about a &lt;a href=&quot;https://github.com/dataoptimal&quot;&gt;link&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Here’s a bulleted list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;First item&lt;/li&gt;
+  &lt;li&gt;Second item&lt;/li&gt;
+  &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s a numbered list:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+  &lt;li&gt;Third&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Python code block:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;z&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;z&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;R code block:&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;some_file.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s some inline code &lt;code class=&quot;highlighter-rouge&quot;&gt;x+y&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s an image:
+&lt;img src=&quot;/images/perceptron/linsep.jpg&quot; alt=&quot;linearly separable data&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s another image using Kramdown:
+&lt;img src=&quot;/images/perceptron/linsep.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s some math:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;z=x+y&lt;/script&gt;
+
+&lt;p&gt;You can also put it inline &lt;script type=&quot;math/tex&quot;&gt;z=x+y&lt;/script&gt;&lt;/p&gt;</content><author><name>Sarayut Winuthayanon</name></author><category term="data wrangling" /><category term="data science" /><category term="messy data" /><summary type="html">Data Wrangling, Data Science, Messy Data</summary></entry></feed>
