@@ -1,0 +1,10 @@
+I"[<p>Some inline Latex: <script type="math/tex">a^2 + b^2 = c^2</script></p>
+
+<p>When $a \ne 0$, there are two solutions to (ax^2 + bx + c = 0) and they are
+<script type="math/tex">x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</script></p>
+
+<p>Display equation:</p>
+
+<script type="math/tex; mode=display">\int e^{-kx} \, dx = -\frac{1}{k} e^{-kx}</script>
+
+:ET

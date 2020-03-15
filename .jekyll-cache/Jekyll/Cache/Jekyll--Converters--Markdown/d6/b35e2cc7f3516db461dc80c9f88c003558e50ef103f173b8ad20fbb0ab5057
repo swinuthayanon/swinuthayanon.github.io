@@ -1,0 +1,164 @@
+I""<p>State of Highlighting Code in Jekyll
+I appear to be able to highlight syntax in Markdown files in two different ways using Jekyll.</p>
+
+<p>This `is not a code` span!</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\         backslash
+.         period
+*         asterisk
+_         underscore
++         plus
+-         minus
+=         equal sign
+`         back tick
+()[]{}&lt;&gt;  left and right parens/brackets/braces/angle brackets
+#         hash
+!         bang
+&lt;&lt;        left guillemet
+&gt;&gt;        right guillemet
+:         colon
+|         pipe
+"         double quote
+'         single quote
+$         dollar sign
+</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="code"><pre><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-language" data-lang="language">var name = "Alice";
+var function = alertMessage(){
+  alert("Hello, " + name);
+  var name = "Bob";
+};
+alertMessage();</code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">&lt;</span><span class="nt">pre</span><span class="o">&gt;</span>
+<span class="err">```</span><span class="nt">javascript</span>
+ <span class="nt">var</span> <span class="nt">hoisting</span> <span class="o">=</span> <span class="s1">"global variable"</span><span class="o">;</span>
+    <span class="o">(</span><span class="nt">function</span><span class="o">()</span><span class="p">{</span>
+        <span class="err">confirm("\""</span> <span class="err">+</span> <span class="err">hoisting</span> <span class="err">+</span> <span class="err">"\""</span> <span class="err">+</span> <span class="err">"</span> <span class="err">click</span> <span class="err">OK"</span> <span class="err">);</span>
+        <span class="err">var</span> <span class="err">hoisting</span> <span class="err">=</span> <span class="err">"local</span> <span class="err">variable";</span>
+        <span class="err">alert(hoisting);</span>
+    <span class="p">}</span><span class="o">)();</span> <span class="o">//</span><span class="nt">self-executing</span> <span class="nt">function</span>
+<span class="err">```</span>
+<span class="o">&lt;/</span><span class="nt">pre</span><span class="o">&gt;</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#container</span> <span class="p">{</span>
+    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% for post in site.posts %}
+{% if post.categories contains '&lt;categoryname&gt;' %}
+    &lt;h2&gt;
+      &lt;a href="{{ post.url }}"&gt;{{ post.title }}&lt;/a&gt;
+    &lt;/h2&gt;
+{% endif %}
+{% endfor %}
+</code></pre></div></div>
+
+<pre>
+```javascript
+ var hoisting = "global variable";
+    (function(){
+        confirm("\"" + hoisting + "\"" + " click OK" );
+        var hoisting = "local variable";
+        alert(hoisting);
+    })(); //self-executing function
+```
+</pre>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">center_lower_48</span> <span class="o">=</span> <span class="p">[</span><span class="mf">39.833333</span><span class="p">,</span> <span class="o">-</span><span class="mf">98.583333</span><span class="p">]</span>
+<span class="nb">map</span> <span class="o">=</span> <span class="n">folium</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">location</span> <span class="o">=</span> <span class="n">center_lower_48</span><span class="p">,</span>
+                 <span class="n">zoom_start</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span>
+                 <span class="n">control_scale</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
+                 <span class="n">tiles</span> <span class="o">=</span> <span class="s">'Stamen Terrain'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>#<code class="highlighter-rouge">shell
+$ pip install jupyter
+#</code></p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>pip <span class="nb">install </span>jupyter
+</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">cat</span>
+  <span class="nb">puts</span> <span class="s1">'I love cats'</span>
+<span class="k">end</span></code></pre></figure>
+
+<p>def cat
+  puts ‘I love cats’
+end</p>
+
+<p>The code above yields:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="language-shell highlighter-rouge"&gt;
+  &lt;div class="highlight"&gt;
+    &lt;pre class="highlight"&gt;
+      &lt;code&gt;
+        &lt;span class="nv"&gt;$ &lt;/span&gt;pip install jupyter
+      &lt;/code&gt;
+    &lt;/pre&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+<p>However, if I use Liquid syntax in my markdown file, the output changes.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>pip <span class="nb">install </span>jupyter</code></pre></figure>
+
+<p>The code above renders to the result below.</p>
+
+<figure class="highlight">
+  <pre>
+    <code class="language-shell" data-lang="shell">
+      <span class="nv">$ </span>pip install jupyter
+    </code>
+  </pre>
+</figure>
+<p>Please note that this difference does not appear to be documented, and is quite surprising to a Jekyll beginner. I note that in some other issues Jekyll-users appear surprised to discover that highlighting with fenced blocks is an option, because the documentation refers only to the second method.</p>
+
+<p>Note that some behavior changes if I edit my _config.yml and set highlighter to none</p>
+
+<p>markdown: kramdown
+highlighter: none # new addition
+The first code snippet (using Markdown delimiters) now yields the following (note missing div tags and syntax highlighting).</p>
+
+<pre>
+  <code class="language-shell">
+    $ pip install jupyter
+  </code>
+</pre>
+<p>The second snippet now yields the code below (syntax highlighting removed, but figure tags remains).</p>
+
+<figure class="highlight">
+  <pre>
+    <code class="language-shell" data-lang="shell">
+      $ pip install jupyter
+    </code>
+  </pre>
+</figure>
+
+:ET

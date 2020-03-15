@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Sarayut Winuthayanon"
   avatar           : "/images/bio-pic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **family** man."
+  bio              : "I am a **family** man."
   location         : "US"
   email            :
   links:

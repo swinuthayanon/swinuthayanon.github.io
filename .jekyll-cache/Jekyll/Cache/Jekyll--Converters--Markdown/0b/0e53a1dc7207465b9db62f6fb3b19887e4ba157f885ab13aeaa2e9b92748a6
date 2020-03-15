@@ -1,0 +1,33 @@
+I"@<p>Some inline Latex: <script type="math/tex">a^2 + b^2 = c^2</script></p>
+
+<p>When $a \ne 0$, there are two solutions to (ax^2 + bx + c = 0) and they are
+<script type="math/tex">x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</script></p>
+
+<p>Display equation:</p>
+
+<script type="math/tex; mode=display">\int e^{-kx} \, dx = -\frac{1}{k} e^{-kx}</script>
+
+<p>These render differently. For example, type
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+to show 
+(which is inline mode) or type
+<script type="math/tex">\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}</script>
+to show</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]></script>
+
+:ET
